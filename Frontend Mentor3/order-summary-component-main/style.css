@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 98%);
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin: auto;
+  padding-top: 20%;
+}
+.main-content {
+  height: 65vh;
+  width: 250px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+.img-cont>img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 115px;
+}
+
+.order>h1 {
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+  margin-top: 15px;
+  text-align: center;
+}
+.order>p {
+  font-size: 12px;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.annual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.paragraph>h3 {
+  color: hsl(223, 47%, 23%);
+  font-size: 12px;
+}
+.paragraph>p {
+  color: hsl(224, 23%, 55%);
+  font-size: 12px;
+}
+.change>a {
+  font-size: 12px;
+}
+.butt>button {
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 10px;
+  height: 22px;
+  width: 150px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px; 
+}
+
+.cancel>p {
+  color: hsl(224, 23%, 55%);
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  margin-top: 50px;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}

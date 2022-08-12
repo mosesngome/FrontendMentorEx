@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.img-cont {
+  background-color: hsl(216, 50%, 16%);
+  width: 60%;
+  height: 420px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+  max-width: 250px;
+}
+.eq>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.eq {
+  position: relative;
+
+}
+.eq:hover> .light-blue {
+  opacity: 1;
+}
+.light-blue {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+.equi {
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.our {
+  color: hsl(215, 51%, 70%);
+  margin-top: 15px;
+  font-size: small;
+  margin-bottom: 15px;
+}
+hr {
+  background-color: hsl(215, 49%, 7%);
+  margin-top: 15px;
+  border-width: 1px;
+}
+.av {
+  border: 1px solid white;
+  height: 8%;
+  width: 8%;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+.clock {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: space-between;
+}
+.clock :first-child {
+  color: cyan;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.clock :nth-child(2) {
+  color: hsl(215, 51%, 70%);
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.jule {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.create {
+  font-size: small;
+  color: hsl(215, 51%, 70%);
+}
+.wyv {
+  color: white;
+}
+.p-img>img {
+  height: 10%;
+  width: 10%;
+}
+.clock-img>img {
+  height: 15%;
+  width: 15%;
+}

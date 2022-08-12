@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: hsl(30, 38%, 92%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145vh;
+  margin: auto;
+  padding-top: 4%;
+ 
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+  width: 140vw;
+  border-radius: 10px;
+  max-width: 60%;
+  background-color: white;
+}
+.img-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-container {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.img-container>img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  object-fit: cover;
+}
+.perfume {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  letter-spacing: 6px;
+  font-weight: 500;
+}
+.gabriel {
+  font-family: 'Fraunces', serif;
+  font-size: 14px;
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  line-height: 20pt;
+}
+.a-floral {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  line-height: 16pt;
+}
+.price {
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.former-price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.cart>button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 220px;
+  height: 45px;
+  margin-right: 25px;
+  margin-left: 25px;
+  color: white;
+}
